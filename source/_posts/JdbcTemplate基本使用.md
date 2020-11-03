@@ -34,7 +34,7 @@ Tags: java
 
 ## 创建数据库表和实体
 
-![jdbcTemplate](/Users/nathan/Desktop/syyjay.github.io/source/_posts/JdbcTemplate基本使用/jdbcTemplate.jpg)
+![jdbcTemplate](JdbcTemplate基本使用/jdbcTemplate.jpg)
 
 ```java
 public class User {
