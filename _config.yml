@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: syyjay
 email: syyjay@sina.cn
-language: zh-Hans
+language: zh-CN
 timezone: ''
 
 # URL
@@ -42,7 +42,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+# post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -99,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
