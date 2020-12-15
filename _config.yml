@@ -22,6 +22,14 @@ pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
+#百度收录
+baidu_url_submit:
+  count: 1               # 提交最新的多少个链接
+  host: syyjay.github.io   # 在百度站长平台中添加的域名
+  token: 2DCa4PAl8GoeUT4V      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+
 # Directory
 source_dir: source
 public_dir: public
@@ -108,4 +116,3 @@ deploy:
  type: git
  repo: https://github.com/syyjay/syyjay.github.io.git
  branch: master
-
